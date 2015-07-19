@@ -1,10 +1,9 @@
+#!/usr/bin/perl
 #Code written by Charles Warden (cwarden@coh.org, x60233)
-
-#This function creates an R script that can be used to create a .RData file
 
 #to run:
 #1) move to directory of interest
-#2) type in "perl /path/to/file/make_create_RData_file.pl --genome=AncestryDNA_genome_file"
+#2) type in "perl /path/to/file/AncestryDNA_to_23andMe.pl --genome=AncestryDNA_genome_file"
 
 
 use warnings;
@@ -16,7 +15,7 @@ my $dir = getcwd;
 
 my $os = $^O;
 my $os_name;
-if (($os eq "MacOS")||($os eq "darwin"))
+if (($os eq "MacOS")||($os eq "darwin")||($os eq "linux"))
 	{
 		#Mac
 		$os_name = "MAC";
