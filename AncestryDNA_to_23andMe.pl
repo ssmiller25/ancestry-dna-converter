@@ -1,5 +1,6 @@
 #!/usr/bin/perl
 #Code written by Charles Warden (cwarden@coh.org, x60233)
+# GitHub Repo: https://github.com/avrgeek/ancestry-dna-converter
 
 #to run:
 #1) move to directory of interest
